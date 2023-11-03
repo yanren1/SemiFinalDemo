@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SPARQL Query Form</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .input-box {
+            margin-bottom: 10px;
+        }
+        .query-box {
+            height: 200px;
+        }
+        .result-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>SPARQL Query Form</h1>
+    <form method="POST" class="container">
+        <div class="input-box">
+            <label for="sparql_endpoint">SPARQL Endpoint URL:</label>
+            <input type="text" name="sparql_endpoint" required>
+        </div>
+
+        <div class="input-box">
+            <label for="repository_id">Repository ID:</label>
+            <input type="text" name="repository_id" required>
+        </div>
+
+        <div class="input-box">
+            <label for="sparql_query">SPARQL Query:</label>
+            <textarea name="sparql_query" class="query-box" required></textarea>
+        </div>
+
+        <input type="submit" value="Submit Query">
+    </form>
+    <div class="result-box">
+        <h2>SPARQL Query Result</h2>
+        <pre>
+            {{ results | tojson }}
+        </pre>
+    </div>
+</body>
+</html>
