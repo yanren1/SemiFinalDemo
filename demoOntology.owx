@@ -1,0 +1,1478 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http:/users.jyu/~yquuu/demoOntology.rdf"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http:/users.jyu/~yquuu/demoOntology.rdf">
+    <Prefix name="" IRI="http:/users.jyu/~yquuu/demoOntology.rdf/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="/AICompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Algorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Calculas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Canada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/CanadianPeople"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/China"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Chinese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ChinesePeople"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Company"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ComputingScienceSubjects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Degree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Edmonton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Elementary_school"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Employment_experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/English"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FinishPeople"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Finland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Intern_experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Internship_direction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Jinan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Junior_high_school"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Jyväskylä"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/LinearAlgebra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/MachineLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Master_Degree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/MathematicsSubjects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/NonAICompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Programming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Projects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Skills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SoftwareDevelopment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Suzhou"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/WorkExperience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Bacholer&apos;s_Degree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/C++"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/AboutSubject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Admits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/BornedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/BrotherOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/CanSpeak"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/CitizenOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/CityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Employs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/EnrolledIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/GraduatedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HasBrother"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HasCity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HasDegree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HasExperience"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HasFriend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HasGender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HasSister"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HasSkill"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/LocateAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/OwnProject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/SisterOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/UseSkillOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/WorkFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/biologicalFatherOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/EndAt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/HasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/Position"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/ProjectName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/SchoolName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/StartFrom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/StudentID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/AI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/AICompany1_EmploymentExp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/AICompany_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/AISpeech"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/AIspeech_EmploymentExp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Bachelor_of_Science"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/CV_SDK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Canada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Cello"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/China"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Chinese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Edmonton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ElementarySchool_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/English"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Finland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/GrandFather_Of_Yanren"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Inspur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Inspur_InternExp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Jinan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/JuniorHighSchool_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Jyväskylä"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/NonAICompany_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Person_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Person_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Person_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Piano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/SoftwareDevelopment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Suzhou"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Tennis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Univeristy_of_Alberta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/University_of_Jyväskylä"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/YanrenQu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/machinelearningskill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/pythonskill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/softwaredevelopmentskill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Master&apos;s_Degree_Programme_in_Artificial_Intelligence"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="/ComputingScienceSubjects"/>
+        <ObjectUnionOf>
+            <Class IRI="/Algorithm"/>
+            <Class IRI="/MachineLearning"/>
+            <Class IRI="/Python"/>
+            <Class IRI="/SoftwareDevelopment"/>
+            <Class IRI="/C++"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Gender"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/Female"/>
+            <NamedIndividual IRI="/Male"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/MachineLearning"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/Algorithm"/>
+            <Class IRI="/Calculas"/>
+            <Class IRI="/LinearAlgebra"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/MathematicsSubjects"/>
+        <ObjectUnionOf>
+            <Class IRI="/Calculas"/>
+            <Class IRI="/LinearAlgebra"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="/AICompany"/>
+        <Class IRI="/Company"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/AICompany"/>
+        <ObjectComplementOf>
+            <Class IRI="/NonAICompany"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Algorithm"/>
+        <Class IRI="/Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Calculas"/>
+        <Class IRI="/Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Canada"/>
+        <Class IRI="/Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CanadianPeople"/>
+        <Class IRI="/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CanadianPeople"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/CitizenOf"/>
+            <Class IRI="/Canada"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/China"/>
+        <Class IRI="/Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Chinese"/>
+        <Class IRI="/Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ChinesePeople"/>
+        <Class IRI="/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ChinesePeople"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/CitizenOf"/>
+            <NamedIndividual IRI="/China"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ComputingScienceSubjects"/>
+        <Class IRI="/Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Degree"/>
+        <Class IRI="/Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Edmonton"/>
+        <Class IRI="/City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Edmonton"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/CityOf"/>
+            <NamedIndividual IRI="/Canada"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Elementary_school"/>
+        <Class IRI="/Junior_high_school"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Employment_experience"/>
+        <Class IRI="/WorkExperience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/English"/>
+        <Class IRI="/Language"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Female"/>
+        <Class IRI="/Gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FinishPeople"/>
+        <Class IRI="/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FinishPeople"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/CitizenOf"/>
+            <Class IRI="/Finland"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Finland"/>
+        <Class IRI="/Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Intern_experience"/>
+        <Class IRI="/WorkExperience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Internship_direction"/>
+        <Class IRI="/Intern_experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Jinan"/>
+        <Class IRI="/City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Jinan"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/CityOf"/>
+            <NamedIndividual IRI="/China"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Junior_high_school"/>
+        <Class IRI="/School"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Jyväskylä"/>
+        <Class IRI="/City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Jyväskylä"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/CityOf"/>
+            <NamedIndividual IRI="/Finland"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/LinearAlgebra"/>
+        <Class IRI="/Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/MachineLearning"/>
+        <Class IRI="/Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Male"/>
+        <Class IRI="/Gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Master_Degree"/>
+        <Class IRI="/Degree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/MathematicsSubjects"/>
+        <Class IRI="/Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Music"/>
+        <Class IRI="/Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/NonAICompany"/>
+        <Class IRI="/Company"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/NonAICompany"/>
+        <ObjectComplementOf>
+            <Class IRI="/AICompany"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Person"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="/HasGender"/>
+            <Class IRI="/Gender"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Programming"/>
+        <Class IRI="/Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Programming"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/AboutSubject"/>
+            <Class IRI="/ComputingScienceSubjects"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Projects"/>
+        <Class IRI="/Employment_experience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Python"/>
+        <Class IRI="/Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/School"/>
+        <Class IRI="/Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SoftwareDevelopment"/>
+        <Class IRI="/Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sports"/>
+        <Class IRI="/Skills"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Staff"/>
+        <Class IRI="/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Student"/>
+        <Class IRI="/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Subject"/>
+        <Class IRI="/Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Suzhou"/>
+        <Class IRI="/City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Suzhou"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="/CityOf"/>
+            <NamedIndividual IRI="/China"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/University"/>
+        <Class IRI="/School"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bacholer&apos;s_Degree"/>
+        <Class IRI="/Degree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/C++"/>
+        <Class IRI="/Subject"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="/Internship_direction"/>
+        <NamedIndividual IRI="/AI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Employment_experience"/>
+        <NamedIndividual IRI="/AICompany1_EmploymentExp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/AICompany"/>
+        <NamedIndividual IRI="/AICompany_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/AICompany"/>
+        <NamedIndividual IRI="/AISpeech"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Employment_experience"/>
+        <NamedIndividual IRI="/AIspeech_EmploymentExp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Bacholer&apos;s_Degree"/>
+        <NamedIndividual IRI="/Bachelor_of_Science"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Projects"/>
+        <NamedIndividual IRI="/CV_SDK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Canada"/>
+        <NamedIndividual IRI="/Canada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Country"/>
+        <NamedIndividual IRI="/Canada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Music"/>
+        <NamedIndividual IRI="/Cello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/China"/>
+        <NamedIndividual IRI="/China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Country"/>
+        <NamedIndividual IRI="/China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Chinese"/>
+        <NamedIndividual IRI="/Chinese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Language"/>
+        <NamedIndividual IRI="/Chinese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/City"/>
+        <NamedIndividual IRI="/Edmonton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Edmonton"/>
+        <NamedIndividual IRI="/Edmonton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Elementary_school"/>
+        <NamedIndividual IRI="/ElementarySchool_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/English"/>
+        <NamedIndividual IRI="/English"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Language"/>
+        <NamedIndividual IRI="/English"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Female"/>
+        <NamedIndividual IRI="/Female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Gender"/>
+        <NamedIndividual IRI="/Female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Country"/>
+        <NamedIndividual IRI="/Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Finland"/>
+        <NamedIndividual IRI="/Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Sports"/>
+        <NamedIndividual IRI="/Football"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="/GrandFather_Of_Yanren"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/NonAICompany"/>
+        <NamedIndividual IRI="/Inspur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Intern_experience"/>
+        <NamedIndividual IRI="/Inspur_InternExp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/City"/>
+        <NamedIndividual IRI="/Jinan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Jinan"/>
+        <NamedIndividual IRI="/Jinan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Junior_high_school"/>
+        <NamedIndividual IRI="/JuniorHighSchool_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/City"/>
+        <NamedIndividual IRI="/Jyväskylä"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Jyväskylä"/>
+        <NamedIndividual IRI="/Jyväskylä"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Gender"/>
+        <NamedIndividual IRI="/Male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Male"/>
+        <NamedIndividual IRI="/Male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/NonAICompany"/>
+        <NamedIndividual IRI="/NonAICompany_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="/Person_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="/Person_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="/Person_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Music"/>
+        <NamedIndividual IRI="/Piano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Internship_direction"/>
+        <NamedIndividual IRI="/SoftwareDevelopment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/City"/>
+        <NamedIndividual IRI="/Suzhou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Suzhou"/>
+        <NamedIndividual IRI="/Suzhou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Sports"/>
+        <NamedIndividual IRI="/Tennis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/University"/>
+        <NamedIndividual IRI="/Univeristy_of_Alberta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/University"/>
+        <NamedIndividual IRI="/University_of_Jyväskylä"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ChinesePeople"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Programming"/>
+        <NamedIndividual IRI="/machinelearningskill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Programming"/>
+        <NamedIndividual IRI="/pythonskill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Programming"/>
+        <NamedIndividual IRI="/softwaredevelopmentskill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Master_Degree"/>
+        <NamedIndividual IRI="/Master&apos;s_Degree_Programme_in_Artificial_Intelligence"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Employs"/>
+        <NamedIndividual IRI="/AICompany_1"/>
+        <NamedIndividual IRI="/Person_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/LocateAt"/>
+        <NamedIndividual IRI="/AICompany_1"/>
+        <NamedIndividual IRI="/Edmonton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Employs"/>
+        <NamedIndividual IRI="/AISpeech"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/LocateAt"/>
+        <NamedIndividual IRI="/AISpeech"/>
+        <NamedIndividual IRI="/Suzhou"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/OwnProject"/>
+        <NamedIndividual IRI="/AISpeech"/>
+        <NamedIndividual IRI="/CV_SDK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/UseSkillOf"/>
+        <NamedIndividual IRI="/CV_SDK"/>
+        <NamedIndividual IRI="/machinelearningskill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/UseSkillOf"/>
+        <NamedIndividual IRI="/CV_SDK"/>
+        <NamedIndividual IRI="/pythonskill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/UseSkillOf"/>
+        <NamedIndividual IRI="/CV_SDK"/>
+        <NamedIndividual IRI="/softwaredevelopmentskill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/BornedIn"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+        <NamedIndividual IRI="/China"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/CanSpeak"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+        <NamedIndividual IRI="/Chinese"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/CitizenOf"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+        <NamedIndividual IRI="/China"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/GraduatedFrom"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+        <NamedIndividual IRI="/ElementarySchool_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasFriend"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasGender"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+        <NamedIndividual IRI="/Male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasSister"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+        <NamedIndividual IRI="/Person_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/biologicalFatherOf"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasGender"/>
+        <NamedIndividual IRI="/GrandFather_Of_Yanren"/>
+        <NamedIndividual IRI="/Male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/biologicalFatherOf"/>
+        <NamedIndividual IRI="/GrandFather_Of_Yanren"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/LocateAt"/>
+        <NamedIndividual IRI="/Inspur"/>
+        <NamedIndividual IRI="/Jinan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Employs"/>
+        <NamedIndividual IRI="/NonAICompany_1"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/LocateAt"/>
+        <NamedIndividual IRI="/NonAICompany_1"/>
+        <NamedIndividual IRI="/Jinan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/BornedIn"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/Canada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/CanSpeak"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/English"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/GraduatedFrom"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/JuniorHighSchool_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/GraduatedFrom"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/University_of_Jyväskylä"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasDegree"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/Bachelor_of_Science"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasExperience"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/AICompany1_EmploymentExp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasFriend"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasGender"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/Male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasSkill"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/Cello"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasSkill"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/Football"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasSkill"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <NamedIndividual IRI="/softwaredevelopmentskill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/BornedIn"/>
+        <NamedIndividual IRI="/Person_2"/>
+        <NamedIndividual IRI="/China"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/GraduatedFrom"/>
+        <NamedIndividual IRI="/Person_2"/>
+        <NamedIndividual IRI="/ElementarySchool_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasBrother"/>
+        <NamedIndividual IRI="/Person_2"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasFriend"/>
+        <NamedIndividual IRI="/Person_2"/>
+        <NamedIndividual IRI="/Person_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasFriend"/>
+        <NamedIndividual IRI="/Person_2"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasGender"/>
+        <NamedIndividual IRI="/Person_2"/>
+        <NamedIndividual IRI="/Female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasSkill"/>
+        <NamedIndividual IRI="/Person_2"/>
+        <NamedIndividual IRI="/Piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/BornedIn"/>
+        <NamedIndividual IRI="/Person_3"/>
+        <NamedIndividual IRI="/Finland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/GraduatedFrom"/>
+        <NamedIndividual IRI="/Person_3"/>
+        <NamedIndividual IRI="/JuniorHighSchool_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/GraduatedFrom"/>
+        <NamedIndividual IRI="/Person_3"/>
+        <NamedIndividual IRI="/University_of_Jyväskylä"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasDegree"/>
+        <NamedIndividual IRI="/Person_3"/>
+        <NamedIndividual IRI="/Master&apos;s_Degree_Programme_in_Artificial_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasFriend"/>
+        <NamedIndividual IRI="/Person_3"/>
+        <NamedIndividual IRI="/Person_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasGender"/>
+        <NamedIndividual IRI="/Person_3"/>
+        <NamedIndividual IRI="/Female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasSkill"/>
+        <NamedIndividual IRI="/Person_3"/>
+        <NamedIndividual IRI="/Football"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasSkill"/>
+        <NamedIndividual IRI="/Person_3"/>
+        <NamedIndividual IRI="/Tennis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Admits"/>
+        <NamedIndividual IRI="/Univeristy_of_Alberta"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/Admits"/>
+        <NamedIndividual IRI="/University_of_Jyväskylä"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/BornedIn"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/China"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/CanSpeak"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/Chinese"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/CanSpeak"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/English"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/EnrolledIn"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/Master&apos;s_Degree_Programme_in_Artificial_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/GraduatedFrom"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/Univeristy_of_Alberta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasExperience"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/AIspeech_EmploymentExp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasExperience"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/Inspur_InternExp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasGender"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/Male"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasSkill"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/machinelearningskill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasSkill"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/pythonskill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/HasSkill"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <NamedIndividual IRI="/softwaredevelopmentskill"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/EndAt"/>
+        <NamedIndividual IRI="/AIspeech_EmploymentExp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-21T09:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/StartFrom"/>
+        <NamedIndividual IRI="/AIspeech_EmploymentExp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-01T09:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/ProjectName"/>
+        <NamedIndividual IRI="/CV_SDK"/>
+        <Literal>Development of Computing Vision SDK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/HasName"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+        <Literal>father of yanrenqu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Position"/>
+        <NamedIndividual IRI="/Father_of_YanrenQu"/>
+        <Literal>manager</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/EndAt"/>
+        <NamedIndividual IRI="/Inspur_InternExp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-30T09:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/StartFrom"/>
+        <NamedIndividual IRI="/Inspur_InternExp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-01T09:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/HasName"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <Literal>P1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Position"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <Literal>algorithm Engineer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/StudentID"/>
+        <NamedIndividual IRI="/Person_1"/>
+        <Literal>ID01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/HasName"/>
+        <NamedIndividual IRI="/Person_2"/>
+        <Literal>p2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Position"/>
+        <NamedIndividual IRI="/Person_2"/>
+        <Literal>manager</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/SchoolName"/>
+        <NamedIndividual IRI="/Univeristy_of_Alberta"/>
+        <Literal>University of Alberta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/SchoolName"/>
+        <NamedIndividual IRI="/University_of_Jyväskylä"/>
+        <Literal>Univeristy of Jyväskylä</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/HasName"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <Literal>Yanren Qu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/Position"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <Literal>algorithm Engineer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/StudentID"/>
+        <NamedIndividual IRI="/YanrenQu"/>
+        <Literal>ID1433303</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/BrotherOf"/>
+        <ObjectProperty IRI="/HasBrother"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/Employs"/>
+        <ObjectProperty IRI="/WorkFor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/HasSister"/>
+        <ObjectProperty IRI="/SisterOf"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="/BornedIn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="/CityOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="/HasDegree"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="/HasFriend"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Admits"/>
+        <Class IRI="/School"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/BornedIn"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/CanSpeak"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/CitizenOf"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/CityOf"/>
+        <Class IRI="/City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Employs"/>
+        <Class IRI="/Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/EnrolledIn"/>
+        <Class IRI="/Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/GraduatedFrom"/>
+        <Class IRI="/Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/HasCity"/>
+        <Class IRI="/Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/HasDegree"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/HasExperience"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/HasFriend"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/HasGender"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/HasSkill"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/OwnProject"/>
+        <Class IRI="/Company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/UseSkillOf"/>
+        <Class IRI="/Projects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/WorkFor"/>
+        <Class IRI="/Staff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/biologicalFatherOf"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/AboutSubject"/>
+        <Class IRI="/Subject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Admits"/>
+        <Class IRI="/Student"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/BornedIn"/>
+        <Class IRI="/Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/CanSpeak"/>
+        <Class IRI="/Language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/CitizenOf"/>
+        <Class IRI="/Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/CityOf"/>
+        <Class IRI="/Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Employs"/>
+        <Class IRI="/Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/EnrolledIn"/>
+        <Class IRI="/Master_Degree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/GraduatedFrom"/>
+        <Class IRI="/School"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/HasCity"/>
+        <Class IRI="/City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/HasDegree"/>
+        <Class IRI="/Degree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/HasExperience"/>
+        <Class IRI="/WorkExperience"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/HasFriend"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/HasGender"/>
+        <Class IRI="/Gender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/HasSkill"/>
+        <Class IRI="/Skills"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/LocateAt"/>
+        <Class IRI="/City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/OwnProject"/>
+        <Class IRI="/Projects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/UseSkillOf"/>
+        <Class IRI="/Skills"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/WorkFor"/>
+        <Class IRI="/Company"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/biologicalFatherOf"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="/HasName"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/Position"/>
+        <Class IRI="/Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/ProjectName"/>
+        <Class IRI="/Projects"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/SchoolName"/>
+        <Class IRI="/School"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/StudentID"/>
+        <Class IRI="/Student"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="/EndAt"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/HasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/Position"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/ProjectName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/SchoolName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/StartFrom"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/StudentID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
