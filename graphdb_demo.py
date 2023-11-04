@@ -17,14 +17,14 @@ def index():
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        output = ''
+        output = ' \n'
         for result in results["results"]["bindings"]:
             for k in result.keys():
                 output += f'{k} : {result[k]["value"]} \n'
 
         return render_template('index.html', results=output)
 
-    return render_template('index.html', results=None)
+    return render_template('index.html', results='')
 
 if __name__ == '__main__':
     app.run(debug=True)

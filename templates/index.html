@@ -36,7 +36,9 @@
 
         <div class="input-box">
             <label for="sparql_query">SPARQL Query:</label>
-            <textarea name="sparql_query" class="query-box" required></textarea>
+        </div>
+        <div class="input-box">
+            <textarea name="sparql_query" cols="100" rows="10"  class="query-box" required></textarea>
         </div>
 
         <input type="submit" value="Submit Query">
@@ -44,7 +46,7 @@
     <div class="result-box">
         <h2>SPARQL Query Result</h2>
         <pre>
-            {{ results | tojson }}
+            {{ results }}
         </pre>
     </div>
 </body>
